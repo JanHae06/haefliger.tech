@@ -1,56 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f1f1f1;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 20px;
-    }
-    
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 5px;
-      text-align: center;
-    }
-  </style>
+  <!--Meta Schissdräck-->
+  <tr charset="UTF-16">
+  <meta name="description" content="Personal Webpage of Jan Häfliger">
+  <meta name="keywords" content="Jan Häfliger, Jansen, Jahnsen, Frau Jennylette">
+  <meta name="author" content="Jan Häfliger">
+  <meta name="theme-color" content="#eb4034">
+  <meta name="image" content="https://haefliger.tech/lib/img/default-cover.png">
+  <meta property="og:title" content="Jan Häfliger" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://haefliger.tech/" />
+  <meta property="og:image" content="https://haefliger.tech/lib/img/default-cover.png" />
+  <meta property="og:description" content="Personal Webpage of Jan Häfliger" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@jansen">
+  <meta name="twitter:title" content="Jan Häfliger">
+  <meta name="twitter:description" content="Personal Webpage of Jan Häfliger">
+  <meta name="twitter:image" content="https://haefliger.tech/lib/img/default-cover.png">
+
+  <title>Jan Häfliger</title>
+  <link rel="stylesheet" href="/lib/css/style.css"/>
+  <link rel="icon" type="image/x-icon" href="/lib/img/person-digging-solid.svg">
+  <link rel="canonical" href="https://haefliger.tech/"/>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Haefliger.tech</h1>
+    <h1>Welcome to <span class="special">Haefliger.tech</span></h1>
   </header>
   
   <main>
-    <h1>Under Construction 🏗️</h1>
+    <h1 class="focus">Under Construction 🏗️</h1>
   </main>
   
   <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
+    <p>&copy; <span id="cur-year">2077</span> Jan Häfliger. All rights reserved.</p>
   </footer>
+  <script defer src="/lib/js/index.js"></script>
 </body>
 </html>
